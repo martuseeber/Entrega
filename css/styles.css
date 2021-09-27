@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/*GENERAL*/
+* {
+  margin: 0cm;
+  scroll-behavior: smooth; }
+
+body {
+  width: 100%;
+  font-family: 'Heldane',serif; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.bg-light {
+  background-color: white !important; }
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  font-size: 0.8rem;
+  font-family: 'Fabriga',sans-serif; }
+  .nav-link:hover {
+    color: #84a2da !important; }
+
+footer {
+  justify-items: end;
+  padding: 0.1cm;
+  grid-area: footer; }
+
+/*HOME*/
+.mainIndex0 {
+  display: flex;
+  flex-direction: column; }
+
+.divIndex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f7f7f5;
+  flex-wrap: wrap; }
+
+.divIndex2__titulo {
+  text-align: center;
+  font-size: 2.25rem;
+  padding-top: 2.75cm;
+  font-family: 'Heldane',serif;
+  color: #747462;
+  margin-bottom: 0.25cm; }
+
+.divIndex2__texto {
+  padding: 0.75cm 0.25cm 0.75cm 0.25cm;
+  line-height: 0.75cm;
+  font-family: 'Heldane',serif;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #f7f7f5;
+  margin-bottom: 0.25cm; }
+
+.divIndex3__texto {
+  text-align: center;
+  font-size: 2.25rem;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  font-family: 'Heldane',serif;
+  font-weight: bold;
+  margin-bottom: 0cm;
+  animation-duration: 2s;
+  animation-name: fadeInDown; }
+
+.divIndex4 {
+  background-color: #f7f7f5;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch; }
+
+.divIndex4__texto {
+  text-align: center;
+  padding-top: 0.5cm;
+  margin-bottom: 0.5cm; }
+
+/*EVENTOS*/
+.eventos {
+  font-size: 2.5rem;
+  padding-left: 0.5cm;
+  color: #2c2c24;
+  box-sizing: content-box;
+  background-color: #c7c7bb; }
+
+.card-title, .card-text {
+  text-align: center; }
+
+.row {
+  align-items: center; }
+
+.coropalooza {
+  background-color: #f7f7f5; }
+
+/*INTEGRANTES*/
+.integrantes {
+  font-size: 2.5rem;
+  padding-left: 0.5cm;
+  color: #2c2c24;
+  box-sizing: content-box;
+  background-color: #c7c7bb; }
+
+.integrantes_img {
+  width: 145px; }
+
+/*explicación*/
+.integrantes__explicacion {
+  padding: 0.5cm 0.35cm 1cm 0.35cm;
+  line-height: 0.75cm;
+  font-family: 'Heldane',serif;
+  text-align: center;
+  font-size: 0.95rem; }
+
+/*titulos*/
+.mesaChica__titulo, .cuerdas__titulo {
+  font-size: 1.75rem;
+  text-align: center;
+  color: #444438;
+  background-color: #f7f7f5;
+  box-sizing: border-box; }
+
+/*img mesa chica*/
+.mesaChica__imágenes0, .cuerdas__imágenes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+/*Cuerdas*/
+.cuerdas__subtitulo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: #4e4e40;
+  padding-top: 1.5cm; }
+
+.cuerdas__div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap; }
+
+/*CALENDARIO*/
+.calendario__titulo {
+  font-size: 2.5rem;
+  padding-left: 0.5cm;
+  color: #2c2c24;
+  box-sizing: content-box;
+  background-color: #c7c7bb; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #2c2c24;
+  border-color: #2c2c24; }
+  .btn-primary:hover {
+    background-color: #c7c7bb;
+    color: #2c2c24;
+    border-color: #c7c7bb; }
+
+/*CONTACTO*/
+.contacto__titulo {
+  font-size: 2.5rem;
+  padding-left: 0.5cm;
+  color: #2c2c24;
+  box-sizing: content-box;
+  background-color: #c7c7bb; }
+
+.contacto__section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.contacto-form {
+  margin-left: 0.5cm;
+  margin-right: 0.5cm; }
+
+.formulario__fieldset {
+  margin-left: 0.5cm;
+  line-height: 0.45cm;
+  background-color: #f7f7f5;
+  width: 90%;
+  height: 16.8cm;
+  padding-right: 3cm;
+  padding-left: 0.5cm;
+  padding-top: 0.5cm; }
+
+.contacto__foto {
+  margin-right: 0.02cm;
+  margin-top: 0.2cm;
+  height: 16.7cm;
+  width: 27.7cm; }
+
+@media (min-width: 10px) and (max-width: 1025px) {
+  .cuerdas__div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; } }

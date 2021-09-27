@@ -1,0 +1,54 @@
+/*HOME*/
+.mainIndex0{
+    display: flex;
+    flex-direction: column;
+}
+.divIndex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $general-background-color;
+    flex-wrap: wrap;
+}
+.divIndex2__titulo{
+    text-align: center;
+    font-size: 2.25rem;
+    padding-top: 2.75cm;
+    font-family: 'Heldane',serif;
+    color: rgb(116, 116, 98);
+    margin-bottom: 0.25cm;
+}
+.divIndex2__texto{
+    padding: 0.75cm 0.25cm 0.75cm 0.25cm; 
+    line-height: 0.75cm;
+    font-family: 'Heldane',serif;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: $general-background-color;
+    margin-bottom: 0.25cm;
+}
+.divIndex3__texto{
+    text-align: center;
+    font-size: 2.25rem;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    font-family: 'Heldane',serif;
+    font-weight: bold;
+    margin-bottom: 0cm;
+    animation-duration: 2s;
+    animation-name: fadeInDown;
+}
+.divIndex4{
+    background-color: $general-background-color;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+.divIndex4__texto{
+    text-align: center;
+    padding-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+

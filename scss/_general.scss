@@ -1,0 +1,33 @@
+/*GENERAL*/
+*{
+    margin: 0cm;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: 'Heldane',serif;;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.bg-light{
+    background-color: white !important;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    font-size: 0.8rem;
+    font-family: 'Fabriga',sans-serif;
+    &:hover{
+        color: rgb(132, 162, 218)!important;
+    }
+}
+
+footer{
+    justify-items: end;
+    padding: 0.1cm;
+    grid-area: footer;
+}

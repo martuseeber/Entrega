@@ -1,0 +1,55 @@
+/*INTEGRANTES*/
+.integrantes{
+    font-size: $h1-font-size;
+    padding-left: 0.5cm;
+    color: $h1-color;
+    box-sizing: content-box;
+    background-color: $h1-background-color;
+}
+.integrantes_img{
+    width: 145px;
+}
+/*explicación*/
+.integrantes__explicacion{
+    padding: 0.5cm 0.35cm 1cm 0.35cm; 
+    line-height: 0.75cm;
+    font-family: 'Heldane',serif;
+    text-align: center;
+    font-size: 0.95rem;
+}
+/*titulos*/
+.mesaChica__titulo{
+    font-size: 1.75rem;
+    text-align: center;
+    color: rgb(68, 68, 56);
+    background-color: $general-background-color;
+    box-sizing: border-box;
+}
+.cuerdas__titulo{
+    @extend .mesaChica__titulo
+}
+/*img mesa chica*/
+.mesaChica__imágenes0{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+/*Cuerdas*/
+.cuerdas__subtitulo{
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align:center;
+    color: rgb(78, 78, 64);
+    padding-top: 1.5cm;
+}
+.cuerdas__div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.cuerdas__imágenes{
+    @extend .mesaChica__imágenes0
+}
+

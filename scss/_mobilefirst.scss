@@ -1,0 +1,8 @@
+@media (min-width:10px) and (max-width:1025px) {
+    .cuerdas__div {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }    
+}

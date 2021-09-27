@@ -1,0 +1,20 @@
+/*EVENTOS*/
+.eventos{
+    font-size: $h1-font-size;
+    padding-left: 0.5cm;
+    color: $h1-color;
+    box-sizing: content-box;
+    background-color: $h1-background-color;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    @extend .card-title;
+}
+.row{
+    align-items: center;
+}
+.coropalooza{
+    background-color: $general-background-color;
+}

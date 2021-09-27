@@ -1,0 +1,18 @@
+/*CALENDARIO*/
+.calendario__titulo{
+    font-size: $h1-font-size;
+    padding-left: 0.5cm;
+    color: $h1-color;
+    box-sizing: content-box;
+    background-color: $h1-background-color;
+}
+.btn-primary {
+    color: #fff;
+    background-color: $h1-color;
+    border-color: $h1-color;
+    &:hover{
+        background-color: $h1-background-color;
+        color: $h1-color;
+        border-color: $h1-background-color;
+    }
+}

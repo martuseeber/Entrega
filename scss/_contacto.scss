@@ -1,0 +1,34 @@
+/*CONTACTO*/
+.contacto__titulo{
+    font-size: $h1-font-size;
+    padding-left: 0.5cm;
+    color: $h1-color;
+    box-sizing: content-box;
+    background-color: $h1-background-color;
+}
+.contacto__section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contacto-form{
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+.formulario__fieldset{
+    margin-left: 0.5cm;
+    line-height: 0.45cm;
+    background-color: $general-background-color;
+    width: 90%;
+    height: 16.8cm;
+    padding-right: 3cm;
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+}
+.contacto__foto{
+    margin-right: 0.02cm;
+    margin-top: 0.2cm;
+    height: 16.7cm;
+    width: 27.7cm;
+}
