@@ -193,6 +193,10 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
+.formulario__titulo {
+  font-family: 'Heldane',serif;
+  color: #4a4a40; }
+
 .contacto-form {
   margin-left: 0.5cm;
   margin-right: 0.5cm; }
