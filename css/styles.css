@@ -123,7 +123,13 @@ footer {
   background-color: #c7c7bb; }
 
 .integrantes_img {
-  width: 145px; }
+  width: 145px;
+  margin-bottom: 0.2cm; }
+
+.div-integrantes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
 
 /*explicación*/
 .integrantes__explicacion {
@@ -144,9 +150,10 @@ footer {
 /*img mesa chica*/
 .mesaChica__imágenes0, .cuerdas__imágenes {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  flex-direction: row; }
+  flex-direction: row;
+  margin-bottom: 0.5cm; }
 
 /*Cuerdas*/
 .cuerdas__subtitulo {

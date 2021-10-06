@@ -8,6 +8,12 @@
 }
 .integrantes_img{
     width: 145px;
+    margin-bottom:0.2cm;
+}
+.div-integrantes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 /*explicación*/
 .integrantes__explicacion{
@@ -31,9 +37,10 @@
 /*img mesa chica*/
 .mesaChica__imágenes0{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-bottom: 0.5cm;
 }
 /*Cuerdas*/
 .cuerdas__subtitulo{
