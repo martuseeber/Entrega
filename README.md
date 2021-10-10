@@ -9,5 +9,5 @@ más significativos para el coro. A continuación les cuento un poco sobre el co
   canciones religiosas debido a la orientación del colegio; sin embargo, de vez en cuando hay excepciones.
  
  Les agradezco su atención y espero que disfruten el sitio que fue creado con mucho cariño.
- -Martina Seeber
+ <br>-Martina Seeber
  </div>
